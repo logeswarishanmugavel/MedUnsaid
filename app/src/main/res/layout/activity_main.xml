@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to MedUnsaid!"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/subtitle"
+        android:text="The Perfect way to track and maintain your medication schedule"
+        android:textSize="19sp"
+        android:textColor="@color/label"
+        android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/homeScreen"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/buttonRow1">
+
+            <!--<FrameLayout
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <ImageButton
+                    android:src="@drawable/addmed"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/addmed"
+                android:id="@+id/imageButton"
+                android:layout_weight="1"/>-->
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/addMedButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:width="20dp"
+                android:height="20dp"
+                android:onClick="addMed"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/showMedsButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:onClick="viewMed"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/buttonRow2">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/addDrButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:onClick="addProvider"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:text="@string/emailDrButton"
+                android:onClick="emailMeds"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/buttonRow3">
+
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/lookupPillButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:onClick="lookupMed"/>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/analyzePillButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:onClick="analyzeMed"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

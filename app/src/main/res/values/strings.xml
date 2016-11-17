@@ -1,0 +1,52 @@
+<resources>
+    <!-- Strings for home page-->
+    <string name="app_name">Med Unsaid</string>
+    <string name="addMedButton">Add New Medication</string>
+    <string name="showMedsButton">View My Medications</string>
+    <string name="addDrButton">Add Provider\'s Information</string>
+    <string name="emailDrButton">Email My Medication List</string>
+    <string name="lookupPillButton">Lookup a Medication</string>
+    <string name="analyzePillButton">Analyze a Medication</string>
+
+    <!-- Strings for Add Dr Contact -->
+    <string name="addContactTitle">Add Provider\'s Information</string>
+    <string name="addDrName">Provider\'s Name:</string>
+    <string name="addDrPhone">Provider\'s Phone Number:</string>
+    <string name="addDrEmail">Provider\'s Email Address:</string>
+    <string name="hintName">Enter provider\'s full name</string>
+    <string name="hintPhone">xxx-xxx-xxxx</string>
+    <string name="hintEmail">name\@provider\.com</string>
+    <string name="saveButton">Save</string>
+    <string name="toastConfirm">New provider information saved.</string>
+
+    <!-- Strings for Email Dr -->
+    <string name="emailTitle"> Email My Medication List </string>
+    <string name="chooseDr">Select Provider:</string>
+    <string-array name="drChoices">
+        <item></item>
+        <item>Primary Care Doctor</item>
+        <item>Specialist Doctor</item>
+        <item>Pharmacist</item>
+        <item>Visiting Nurse</item>
+    </string-array>
+    <string name="msgLabel">Message Body:</string>
+    <string name="emailBody">(Optional) Add a message for your provider.</string>
+    <string name="cancelMsg">Cancel</string>
+    <string name="sendMsg">Send</string>
+
+    <string-array name="dosageChoices">
+        <item>Once a day</item>
+        <item>Twice a day</item>
+        <item>Thrice a day</item>
+        <item>Four times a day</item>
+    </string-array>
+
+    <!-- Strings for Menu bar -->
+    <string name="menu">Main Menu</string>
+    <string name="addmed">Add New Medication</string>
+    <string name="viewMed">View My Medications</string>
+    <string name="adddoc">Add Provider\'s Information</string>
+    <string name="emaildoc">Email My Medicaltion List</string>
+    <string name="lookup">Lookup A Medication</string>
+    <string name="analyze">Analyze A Medication</string>
+</resources>

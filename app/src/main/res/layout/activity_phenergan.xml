@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phenergan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.Phenergan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Phenergan"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:text="     Uses"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:text="Phenergan (promethazine) belongs to a group of drugs called phenothiazines. It works by changing the actions of chemicals in your brain. Promethazine also acts as an antihistamine. It blocks the effects of the naturally occurring chemical histamine in your body.  Phenergan is used to treat allergy symptoms such as itching, runny nose, sneezing, itchy or watery eyes, hives, and itchy skin rashes.  Phenergan also prevents motion sickness, and treats nausea and vomiting or pain after surgery. It is also used as a sedative or sleep aid.  Phenergan is not for use in treating symptoms of asthma, pneumonia, or other lower respiratory tract infections."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:text="     Strength"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:text="The average adult dose is 25 mg taken twice daily. "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:layout_weight="0.23" />
+
+            <TextView
+                android:text="     Side Effects"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText10"
+                android:text="Convulsions (seizures) difficult or unusually fast breathing fast heartbeat or irregular pulse high fever high or low (irregular) blood pressure increased sweating loss of bladder control severe muscle stiffness unusually pale skin unusual tiredness or weakness"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cancel"
+                android:id="@+id/CancelButton"
+                android:textColor="#ffffff"
+                android:background="#36c294"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Drug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/pagetitle"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

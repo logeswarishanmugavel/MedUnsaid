@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_email_doctor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.EmailDoctor">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/table">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/emailTitle"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="@color/pagetitle"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chooseDr"
+                android:textColor="@color/label"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/btn_dropdown"
+                android:id="@+id/drSelector"
+                android:padding="10dp"
+                android:layout_marginRight="15dp"
+                android:entries="@array/drChoices" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/msgLabel"
+                android:textColor="@color/label"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:textSize="18sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_marginRight="15dp"
+                android:id="@+id/msgBody"
+                android:hint="@string/emailBody"
+                android:gravity="top"
+                android:textSize="14sp"
+                android:background="@drawable/edit_text_style"
+                android:padding="10dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/table"
+            android:weightSum="1">
+
+            <Button
+                android:text="@string/cancelMsg"
+                android:padding="10dp"
+                android:gravity="center"
+                android:id="@+id/cancelEmail"
+                android:onClick="clearFields"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+            <Button
+                android:text="@string/sendMsg"
+                android:padding="10dp"
+                android:gravity="center"
+                android:id="@+id/sendEmail"
+                android:onClick="sendMsg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.logeswarishanmugavel.medunsaid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddDoctor" />
+        <activity android:name=".AddMedication" />
+        <activity android:name=".Amoxicillin" />
+        <activity android:name=".AmoxicillinUser" />
+        <activity android:name=".Analyze" />
+        <activity android:name=".AnalyzeBack" />
+        <activity android:name=".Bumex" />
+        <activity android:name=".Clonazepam" />
+        <activity android:name=".Digoxin" />
+        <activity android:name=".EditMedication" />
+        <activity android:name=".EmailDoctor" />
+        <activity android:name=".Hydrocodone" />
+        <activity android:name=".Keflex" />
+        <activity android:name=".Lasix" />
+        <activity android:name=".Lisinopril" />
+        <activity android:name=".Lookup" />
+        <activity android:name=".Phenergan" />
+        <activity android:name=".Zofran"/>
+        <activity android:name=".ViewMedication" />
+
+
+    </application>
+
+</manifest>

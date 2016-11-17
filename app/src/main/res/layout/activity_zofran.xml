@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zofran"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.Zofran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Zofran"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:text="     Uses"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:text="Zofran (ondansetron) blocks the actions of chemicals in the body that can trigger nausea and vomiting.  Zofran is used to prevent nausea and vomiting that may be caused by surgery, cancer chemotherapy, or radiation treatment.  Zofran may be used for purposes not listed in this medication guide."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:text="     Strength"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:text="The recommended adult oral dosage of ZOFRAN is 24 mg given as three 8-mg tablets administered 30 minutes before the start of single-day highly emetogenic chemotherapy, including cisplatin ≥50 mg/m2. Multiday, single-dose administration of a 24-mg dosage has not been studied."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:layout_weight="0.04" />
+
+            <TextView
+                android:text="     Side Effects"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText11"
+                android:text="Confusion dizziness fast heartbeat fever headache shortness of breath weakness"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cancel"
+                android:id="@+id/CancelButton"
+                android:textColor="#ffffff"
+                android:background="#36c294"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Drug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/pagetitle"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

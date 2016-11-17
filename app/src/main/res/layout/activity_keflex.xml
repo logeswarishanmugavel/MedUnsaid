@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_keflex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.Keflex">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Keflex"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:text="     Uses"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:text="Keflex (cephalexin) is a cephalosporin (SEF a low spor in) antibiotic. It works by fighting bacteria in your body.  Keflex is used to treat infections caused by bacteria, including upper respiratory infections, ear infections, skin infections, and urinary tract infections.  Keflex may also be used for purposes not listed in this medication guide."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:text="     Strength"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:text="The usual dose of oral KEFLEX is 250 mg every 6 hours, but a dose of 500 mg every 12 hours may be administered. Treatment is administered for 7 to 14 days.  For more severe infections larger doses of oral KEFLEX may be needed, up to 4 grams daily in two to four equally divided doses."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:text="     Side Effects"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText7"
+                android:text="Diarrhea, Abdominal or stomach pain blistering, peeling, or loosening of the skin chills clay-colored stools cough dark urine diarrhea dizziness fever general tiredness and weakness headache itching or rash joint or muscle pain light-colored stools loss of appetite nausea and vomiting red skin lesions, often with a purple center red, irritated eyes sore throat sores, ulcers, or white spots in the mouth or on the lips unpleasant breath odor unusual tiredness or weakness upper right abdominal or stomach pain vomiting of blood yellow eyes or skin Incidence not known: Abdominal or stomach cramps or tenderness back or leg pains black, tarry stools bleeding gums bloating blood in the urine or stools chest pain coughing up blood diarrhea, watery and severe, which may also be bloody difficulty with breathing or swallowing fast heartbeat general body swelling hives increased menstrual flow or vaginal bleeding increased thirst large, hive-like swelling on the face, eyelids, lips, tongue, throat, hands, legs, feet, or sex organs loss of appetite nosebleeds pain painful or difficult urination pale skin paralysis pinpoint red spots on the skin prolonged bleeding from cuts puffiness or swelling of the eyelids or around the eyes, face, lips, or tongue red or black, tarry stools red or dark brown urine swollen or painful glands tightness in the chest unusual bleeding or bruising unusual weight loss watery or bloody diarrhea"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cancel"
+                android:id="@+id/CancelButton"
+                android:textColor="#ffffff"
+                android:background="#36c294"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Drug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/pagetitle"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

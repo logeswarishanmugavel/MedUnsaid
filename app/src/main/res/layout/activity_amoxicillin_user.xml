@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_amoxicillin_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.AmoxicillinUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Amoxicillin"
+                        android:textStyle="bold"
+                        android:textSize="24sp"
+                        android:textColor="@color/pagetitle"
+                        android:layout_marginBottom="10dp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click here for the drug details"
+                        android:onClick="amoxicillin"/>
+                <TextView
+                    android:text="Reminder Days"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:text="Tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:text="Thursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:text="Saturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:paddingTop="10dp" />
+
+        <TextView
+        android:text="Dosage Details per Day"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        android:paddingTop="10dp" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="Dosage #"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp"
+                    android:layout_weight="0.35"/>
+
+                <TextView
+                    android:text="Alert Time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp"
+                    android:layout_weight="0.35"/>
+
+                <TextView
+                    android:text="# of pills to take"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="10:00 AM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="01:00 PM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="07:00 PM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="N/A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.35"/>
+
+                    <TextView
+                        android:text="0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.3"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Refill Details"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="22sp"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Alert Time                     - "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.4"/>
+
+                    <TextView
+                        android:text="10:00 AM"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.6"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="When # of pills left      - "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.4"/>
+
+                    <TextView
+                        android:text="10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"
+                        android:paddingTop="10dp"
+                        android:layout_weight="0.6"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:text="Notes"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textSize="22sp"
+                    android:textColor="#000000"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="310dp"
+                    android:layout_height="match_parent"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/editText2"
+                    android:text = "This medication is for ABC purpose."
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="25dp"
+                    android:paddingTop="10dp" />
+
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text= "Edit"
+                android:id="@+id/edit1"
+                android:onClick="edit" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text= "Delete"
+                    android:id="@+id/delete1"
+                    android:onClick="delete" />
+
+            </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

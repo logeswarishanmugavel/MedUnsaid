@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bumex"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.Bumex">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Bumex"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:text="     Uses"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:text="Bumex (Bumetanide) is a loop diuretic (water pill) that prevents your body from absorbing too much salt, allowing the salt to instead be passed in your urine.  Bumetanide treats fluid retention (edema) in people with congestive heart failure, liver disease, or a kidney disorder such as nephrotic syndrome.  Bumetanide may also be used for other purposes not listed in this medication guide."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:text="     Strength"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:text="The usual total daily dosage of Bumex is 0.5 mg to 2 mg and in most patients is given as a single dose."
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp"
+                android:layout_weight="0.53" />
+
+            <TextView
+                android:text="     Side Effects"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp"
+                android:text="Abdominal pain, blurred vision, decreased urine output, dizziness, drowsiness, dry mouth, fast or irregular heartbeat, flushed or dry skin, fruit-like breath odor, headache, increased hunger, increased thirst, increased urination, irritibility, joint pain, stiffness, or swelling, loss of appetite, loss of mental alertness, lower back, side, or stomach pain, mood or mental changes, muscle pain or cramps" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cancel"
+                android:id="@+id/CancelButton"
+                android:textColor="#ffffff"
+                android:background="#36c294"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Drug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/pagetitle"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

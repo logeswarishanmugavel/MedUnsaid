@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/activity_amoxicillin"
+    tools:context="com.example.logeswarishanmugavel.medunsaid.Amoxicillin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Amoxicilin"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:text="     Uses"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp" />
+
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText2"
+                android:text="Amoxicillin is used to treat many different types of infection caused by bacteria, such as tonsillitis, bronchitis, pneumonia, gonorrhea, and infections of the ear, nose, throat, skin, or urinary tract.  Amoxicillin is also sometimes used together with another antibiotic called clarithromycin (Biaxin) to treat stomach ulcers caused by Helicobacter pylori infection. This combination is sometimes used with a stomach acid reducer called lansoprazole (Prevacid)."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:text="     Strength"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="15dp" />
+
+            <TextView
+                android:text="250 mg ; 500 mg ; 125 mg/5 mL ; 50 mg/mL ; 250 mg/5 mL ; 125 mg ; 200 mg ; 400 mg ; 875 mg ; 200 mg/5 mL ; 400 mg/5 mL ; 600 mg ; 775 mg"
+                android:layout_width="301dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:paddingTop="10dp"
+                android:paddingLeft="30dp" />
+
+            <TextView
+                android:text="     Side Effects"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="#000000"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:id="@+id/editText3"
+                android:text="Bad, unusual, unpleasant (after) taste, or a change in taste all together."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginLeft="25dp"
+                android:paddingTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:text="Cancel"
+                android:id="@+id/CancelButton"
+                android:textColor="#ffffff"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="Drug Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:textColor="@color/pagetitle"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

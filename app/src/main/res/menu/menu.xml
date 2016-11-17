@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu"
+        android:id="@+id/home" />
+
+    <item android:title="@string/addmed"
+        android:id="@+id/menu_addmed" />
+
+    <item android:title="@string/viewMed"
+        android:id="@+id/menu_viewmed" />
+
+    <item android:title="@string/adddoc"
+        android:id="@+id/menu_adddoc" />
+
+    <item android:title="@string/emaildoc"
+        android:id="@+id/menu_emaildoc" />
+
+    <item android:title="@string/lookup"
+        android:id="@+id/menu_lookup" />
+
+    <item android:title="@string/analyze"
+        android:id="@+id/menu_analyze" />
+
+
+</menu>
