@@ -12,6 +12,7 @@ import android.widget.Button;
 public class Amoxicillin extends AppCompatActivity {
 
     Button GoToMainActivity;
+    Button GoToAddMedication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,21 @@ public class Amoxicillin extends AppCompatActivity {
                 // Intent code for open new activity through intent.
 
                 Intent intent = new Intent(Amoxicillin.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        GoToAddMedication = (Button)findViewById(R.id.SaveButton);
+
+        GoToAddMedication.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(Amoxicillin.this, AddMedication.class);
                 startActivity(intent);
 
             }

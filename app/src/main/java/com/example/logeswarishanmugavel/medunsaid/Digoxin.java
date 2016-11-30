@@ -12,6 +12,7 @@ import android.widget.Button;
 public class Digoxin extends AppCompatActivity {
 
     Button GoToMainActivity;
+    Button GoToAddMedication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,23 @@ public class Digoxin extends AppCompatActivity {
 
             }
         });
+
+        GoToAddMedication = (Button)findViewById(R.id.SaveButton);
+
+        GoToAddMedication.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(Digoxin.this, AddMedication.class);
+                startActivity(intent);
+
+            }
+        });
     }
+
 
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();

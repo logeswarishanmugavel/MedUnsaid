@@ -35,7 +35,7 @@
         android:textSize="24sp" />
 
     <ImageButton
-        android:layout_height="350dp"
+        android:layout_height="375dp"
         android:src="@drawable/backpill"
         android:layout_marginTop="20dp"
         android:id="@+id/BackButton"
@@ -45,16 +45,6 @@
         android:layout_alignParentStart="true"
          />
 
-    <TextView
-        android:text="Press image when scanning is complete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:id="@+id/textView6"
-        android:textColor="@color/colorAccent"
-        android:textSize="18sp"
-        android:layout_below="@+id/BackButton"
-        android:layout_centerHorizontal="true" />
     </LinearLayout>
 
     <TextView
@@ -67,5 +57,13 @@
         android:layout_marginTop="120dp"
         android:layout_centerHorizontal="true" />
 
-
+    <TextView
+        android:text="Press image when scanning is complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="375dp"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

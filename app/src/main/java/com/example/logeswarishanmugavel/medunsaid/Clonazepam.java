@@ -12,11 +12,13 @@ import android.widget.Button;
 public class Clonazepam extends AppCompatActivity {
 
     Button GoToMainActivity;
+    Button GoToAddMedication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clonazepam);
+
         GoToMainActivity = (Button)findViewById(R.id.CancelButton);
 
         GoToMainActivity.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +29,21 @@ public class Clonazepam extends AppCompatActivity {
                 // Intent code for open new activity through intent.
 
                 Intent intent = new Intent(Clonazepam.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        GoToAddMedication = (Button)findViewById(R.id.SaveButton);
+
+        GoToAddMedication.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(Clonazepam.this, AddMedication.class);
                 startActivity(intent);
 
             }

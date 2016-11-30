@@ -12,11 +12,13 @@ import android.widget.Button;
 public class Lisinopril extends AppCompatActivity {
 
     Button GoToMainActivity;
+    Button GoToAddMedication;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lisinopril);
+
         GoToMainActivity = (Button)findViewById(R.id.CancelButton);
 
         GoToMainActivity.setOnClickListener(new View.OnClickListener() {
@@ -26,8 +28,22 @@ public class Lisinopril extends AppCompatActivity {
 
                 // Intent code for open new activity through intent.
 
-                Intent intent = new Intent(Lisinopril
-                        .this, MainActivity.class);
+                Intent intent = new Intent(Lisinopril.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        GoToAddMedication = (Button)findViewById(R.id.SaveButton);
+
+        GoToAddMedication.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(Lisinopril.this, AddMedication.class);
                 startActivity(intent);
 
             }

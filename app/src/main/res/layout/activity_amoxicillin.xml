@@ -108,12 +108,20 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="230dp"
+                android:text="Save"
+                android:id="@+id/SaveButton"
+                android:textColor="#ffffff"
+                android:background="#36c294"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="Cancel"
                 android:id="@+id/CancelButton"
                 android:textColor="#ffffff"
                 android:background="@color/colorPrimary"
-                android:layout_marginTop="20dp" />
+                android:layout_marginTop="5dp" />
 
         </LinearLayout>
     </ScrollView>

@@ -13,7 +13,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,27 +36,18 @@
         android:textSize="24sp" />
 
 
-
-    <ImageButton
-        android:layout_height="350dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/frontpill"
-        android:id="@+id/FrontButton"
-        android:scaleType="fitXY"
-        android:backgroundTint="#000000"
-        android:layout_width="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView6" />
-        <TextView
-            android:text="Press image when scanning is complete"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView6"
-            android:textColor="@color/colorAccent"
-            android:textSize="18sp"
-            android:layout_below="@+id/textView6"
+        <ImageButton
+            android:layout_height="375dp"
             android:layout_marginTop="20dp"
-            android:layout_centerHorizontal="true" />
+            android:src="@drawable/frontpill"
+            android:id="@+id/FrontButton"
+            android:scaleType="fitXY"
+            android:backgroundTint="#000000"
+            android:layout_width="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView6"
+            android:layout_weight="0.87" />
+
     </LinearLayout>
 
 
@@ -69,7 +61,15 @@
         android:layout_marginTop="120dp"
         android:layout_centerHorizontal="true" />
 
-
+    <TextView
+        android:text="Press image when scanning is complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="375dp"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
