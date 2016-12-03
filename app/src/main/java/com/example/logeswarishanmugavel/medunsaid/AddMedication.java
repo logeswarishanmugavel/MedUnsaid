@@ -26,6 +26,7 @@ public class AddMedication extends AppCompatActivity {
 
 
     Button GoToMainActivity;
+    Button GoToViewMedication;
 
     private Spinner spinner;
 
@@ -34,6 +35,21 @@ public class AddMedication extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_medication);
+        /*
+        GoToViewMedication = (Button)findViewById(R.id.save);
+
+        GoToViewMedication.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(AddMedication.this, ViewMedication.class);
+                startActivity(intent);
+
+            }
+        });*/
 
         /*Spinner spinner = (Spinner) findViewById(R.id.spinner1);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,

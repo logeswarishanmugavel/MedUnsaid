@@ -10,13 +10,31 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+import android.widget.Button;
 
 public class EmailDoctor extends AppCompatActivity {
+
+    Button GoToMainActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_email_doctor);
+
+        GoToMainActivity = (Button)findViewById(R.id.cancelEmail);
+
+        GoToMainActivity.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                // Intent code for open new activity through intent.
+
+                Intent intent = new Intent(EmailDoctor.this, MainActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {

@@ -116,13 +116,13 @@
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sa"
+                    android:text="S"
                     android:layout_weight="1"
                     android:id="@+id/ch6" />
                 <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Su"
+                    android:text="S"
                     android:layout_weight="1"
                     android:id="@+id/ch7" />
             </LinearLayout>

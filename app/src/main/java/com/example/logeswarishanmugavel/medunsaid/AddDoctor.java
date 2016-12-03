@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class AddDoctor extends AppCompatActivity {
@@ -51,7 +52,21 @@ public class AddDoctor extends AppCompatActivity {
         }
     }
 
+    public void clearFields(View view) {
+        EditText docname = (EditText) findViewById(R.id.docname);
+        docname.setText("");
+
+        EditText docphone = (EditText) findViewById(R.id.docphone);
+        docphone.setText("");
+
+        EditText docemail = (EditText) findViewById(R.id.docemail);
+        docemail.setText("");
+
+
+    }
+
     public void saveContact(View view) {
         Toast.makeText(getApplicationContext(), "New provider information saved.", Toast.LENGTH_SHORT).show();
+        clearFields(view);
     }
 }
