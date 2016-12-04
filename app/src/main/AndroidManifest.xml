@@ -32,10 +32,9 @@
         <activity android:name=".Lisinopril" />
         <activity android:name=".Lookup" />
         <activity android:name=".Phenergan" />
-        <activity android:name=".Zofran"/>
+        <activity android:name=".Zofran" />
         <activity android:name=".ViewMedication" />
-
-
+        <activity android:name=".ViewDoctors"></activity>
     </application>
 
 </manifest>
