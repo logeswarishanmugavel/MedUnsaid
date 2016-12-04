@@ -3,13 +3,13 @@
     <string name="app_name">Med Unsaid</string>
     <string name="addMedButton">Add New Medication</string>
     <string name="showMedsButton">View My Medications</string>
-    <string name="addDrButton">Add Provider\'s Information</string>
+    <string name="addDrButton">View Providers</string>
     <string name="emailDrButton">Email My Medication List</string>
     <string name="lookupPillButton">Lookup a Medication</string>
     <string name="analyzePillButton">Analyze a Medication</string>
 
     <!-- Strings for Add Dr Contact -->
-    <string name="addContactTitle">Add Provider\'s Information</string>
+    <string name="addContactTitle">Provider\'s Contact Information</string>
     <string name="addDrName">Provider\'s Name:</string>
     <string name="addDrPhone">Provider\'s Phone Number:</string>
     <string name="addDrEmail">Provider\'s Email Address:</string>
@@ -45,8 +45,8 @@
     <string name="menu">Main Menu</string>
     <string name="addmed">Add New Medication</string>
     <string name="viewMed">View My Medications</string>
-    <string name="adddoc">Add Provider\'s Information</string>
-    <string name="emaildoc">Email My Medicaltion List</string>
-    <string name="lookup">Lookup A Medication</string>
-    <string name="analyze">Analyze A Medication</string>
+    <string name="adddoc">View Providers</string>
+    <string name="emaildoc">Email My Medications</string>
+    <string name="lookup">Lookup Medication</string>
+    <string name="analyze">Analyze Medication</string>
 </resources>

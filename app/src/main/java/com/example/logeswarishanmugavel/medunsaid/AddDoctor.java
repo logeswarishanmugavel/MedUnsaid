@@ -8,7 +8,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 public class AddDoctor extends AppCompatActivity {
 
@@ -16,6 +15,19 @@ public class AddDoctor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_doctor);
+
+        Intent info = getIntent();
+
+        if (info.hasExtra("name")) {
+            EditText docname = (EditText) findViewById(R.id.docname);
+            docname.setText(info.getStringExtra("name"));
+
+            EditText docphone = (EditText) findViewById(R.id.docphone);
+            docphone.setText(info.getStringExtra("number"));
+
+            EditText docemail = (EditText) findViewById(R.id.docemail);
+            docemail.setText(info.getStringExtra("email"));
+        }
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -36,7 +48,7 @@ public class AddDoctor extends AppCompatActivity {
                 startActivity(new Intent(this, ViewMedication.class));
                 return true;
             case R.id.menu_adddoc:
-                startActivity(new Intent(this, AddDoctor.class));
+                startActivity(new Intent(this, ViewDoctors.class));
                 return true;
             case R.id.menu_emaildoc:
                 startActivity(new Intent(this, EmailDoctor.class));
@@ -51,22 +63,25 @@ public class AddDoctor extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-    public void clearFields(View view) {
-        EditText docname = (EditText) findViewById(R.id.docname);
-        docname.setText("");
-
-        EditText docphone = (EditText) findViewById(R.id.docphone);
-        docphone.setText("");
-
-        EditText docemail = (EditText) findViewById(R.id.docemail);
-        docemail.setText("");
-
-
-    }
+//
+//    public void clearFields(View view) {
+//        EditText docname = (EditText) findViewById(R.id.docname);
+//        docname.setText("");
+//
+//        EditText docphone = (EditText) findViewById(R.id.docphone);
+//        docphone.setText("");
+//
+//        EditText docemail = (EditText) findViewById(R.id.docemail);
+//        docemail.setText("");
+//
+//
+//    }
 
     public void saveContact(View view) {
-        Toast.makeText(getApplicationContext(), "New provider information saved.", Toast.LENGTH_SHORT).show();
-        clearFields(view);
+        Intent save = new Intent(this, ViewDoctors.class);
+
+        save.putExtra("toast", "Provider information saved.");
+
+        startActivity(save);
     }
 }

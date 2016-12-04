@@ -1,53 +1,26 @@
 package com.example.logeswarishanmugavel.medunsaid;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
+import android.widget.Toast;
 
-public class Lisinopril extends AppCompatActivity {
-
-    Button GoToMainActivity;
-    Button GoToAddMedication;
+public class ViewDoctors extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lisinopril);
+        setContentView(R.layout.activity_view_doctors);
 
-        GoToMainActivity = (Button)findViewById(R.id.CancelButton);
+        Intent toast = getIntent();
 
-        GoToMainActivity.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-
-                // Intent code for open new activity through intent.
-
-                Intent intent = new Intent(Lisinopril.this, MainActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        GoToAddMedication = (Button)findViewById(R.id.SaveButton);
-
-        GoToAddMedication.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-
-                // Intent code for open new activity through intent.
-
-                Intent intent = new Intent(Lisinopril.this, AddMedication.class);
-                startActivity(intent);
-
-            }
-        });
+        if (toast.hasExtra("toast")) {
+            Toast.makeText(getApplicationContext(), "Provider information saved.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -82,5 +55,29 @@ public class Lisinopril extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void pcDr(View view) {
+        Intent info = new Intent(this, AddDoctor.class);
+
+        info.putExtra("name", "Primary Care Doctor");
+        info.putExtra("number", "720-453-9000");
+        info.putExtra("email", "pcdoctor@doc.com");
+
+        startActivity(info);
+    }
+
+    public void pharm(View view) {
+        Intent info = new Intent(this, AddDoctor.class);
+
+        info.putExtra("name", "Pharmacist");
+        info.putExtra("number", "720-453-8000");
+        info.putExtra("email", "pharmacist@pharm.com");
+
+        startActivity(info);
+    }
+
+    public void addDoc(View view) {
+        startActivity(new Intent(this, AddDoctor.class));
     }
 }

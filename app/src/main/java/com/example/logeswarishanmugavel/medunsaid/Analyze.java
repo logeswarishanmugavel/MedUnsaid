@@ -52,7 +52,7 @@ public class Analyze extends AppCompatActivity {
                 startActivity(new Intent(this, ViewMedication.class));
                 return true;
             case R.id.menu_adddoc:
-                startActivity(new Intent(this, AddDoctor.class));
+                startActivity(new Intent(this, ViewDoctors.class));
                 return true;
             case R.id.menu_emaildoc:
                 startActivity(new Intent(this, EmailDoctor.class));

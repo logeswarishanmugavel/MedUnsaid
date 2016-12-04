@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addProvider(View view) {
-        startActivity(new Intent(this, AddDoctor.class));
+        startActivity(new Intent(this, ViewDoctors.class));
     }
 
     public void emailMeds(View view) {
