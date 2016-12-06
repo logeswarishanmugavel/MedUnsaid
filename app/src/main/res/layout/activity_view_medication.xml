@@ -29,7 +29,7 @@
         android:weightSum="1">
 
             <TextView
-                android:text="Amoxicilin"
+                android:text="Zofran"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/med1"

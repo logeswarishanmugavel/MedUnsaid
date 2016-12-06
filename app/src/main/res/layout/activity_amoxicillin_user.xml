@@ -29,7 +29,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="Amoxicillin"
+                        android:text="Zofran"
                         android:textStyle="bold"
                         android:textSize="24sp"
                         android:textColor="@color/pagetitle"

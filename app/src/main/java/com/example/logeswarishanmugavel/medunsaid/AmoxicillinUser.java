@@ -59,7 +59,7 @@ public class AmoxicillinUser extends AppCompatActivity{
     }
 
     public void amoxicillin(View view) {
-        startActivity(new Intent(this, Amoxicillin.class));
+        startActivity(new Intent(this, Zofran.class));
     }
 
     public void edit(View view){

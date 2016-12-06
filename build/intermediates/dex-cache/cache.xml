@@ -3,156 +3,156 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a28af209ad26e32f342d2596ba31e2f7effd5381">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8282bab90d9582eb6b15111f60e6e337aa205ecb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_8ed10b6661a0080864515c4c01fc069514f889c1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_e7e700c7b5183ed94b1571f0a1f0c126dee2e2c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_a425c0576da8112c4d22e85f189bbdaa8c4cf892/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_7565c20d7b32b17109aa685280ec6e77107c5626/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c7e347c1f3c0e8ccea3d82564f36d11796bb18e5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2987c862748791a1d9207ecd97b980a7af3850c6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_5f3c87dafad0079909e5ffa894f4bffa60640550/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_b9a5dd7342447ad0596a903c8ff8d04a1cf5707b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_08959bcab282225df6078533e70e3db9e5ad1301/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_3d20509cf6802c0f142ebb7ee6aef751da2a9731/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_26b974e78fde2fda588b9108e636458aeac5492f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_5e249c5d072c3d359fe9c4343fc391d737a5fe28/classes.dex" />
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_e69dafbb9b45006ef78573ce110f32bb844eda43\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_cea4b8e92aac0e6d0a04fa744067584885c7c41b/classes.dex" />
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_1eaeafc6288d6b753a6066676d68ca1ce794e3db\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_0d961e5862360ec08eae11c115a9fbf761e21abd/classes.dex" />
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_9dcf261ca1c1994844fbc356a78c741eb4418085\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Batson\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cec685bf3b88968beeb78fc0196534f5e4ec6e84">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_caf30316b59192f6e8f2d9bac976b35fb054583e/classes.dex" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_79ef2f00d1d2155d2fd4b48894e77e1da2852287\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a6ddd6c39a6a2ad582b408aebe01850d7a089d29">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2f716d83177c3219bd305991037b002aa3b88370\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_2d39ca8a50cec8398b2b1910b1b5e51c5937e4af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_0c524fe72f4d1068ad5500564f370a1a74cf21ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_a0b3ec57a960f50b6e1205c960d29b14a4867989\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ad46a09079928f9129547d21d841e9f4bf686690\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_e8e743826180711dbc98564abc3e106283259e89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b59a7a733d6e25e84fed34758ff3df752a22fb25\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3c54e4f7b96c926df2d4b96a549c8e06250fd91d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/Christina/Downloads/MedUnsaid-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_49b69c898c1e52f64ae90c3283aff69d81a167bb/classes.dex" />
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_45596de0d34e77c1218a2d4d497f47c07c4cffa7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b3e7af64d35d03582b868216a2f5b503e1909bd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3c3b3c67bab03982c50d0f22b182d99e2963278">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e06c6f6c168bb36ac29893a3464472fa28d6c171\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_e486f10bcab9982bc28e5a0bacd70a29e604c9b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Batson\Documents\GitHub\MedUnsaid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_9fbb18be4e4f030f7687fd6985798b5c546fbd88\classes.dex" />
     </item>
 
 </items>
